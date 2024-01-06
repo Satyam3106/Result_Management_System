@@ -22,16 +22,16 @@ On entering the correct login credentials , admin will be redirected to the admi
 
 Here there are 5 fuctionalities : 
 
-    1. Add a new Student 
-      If all the fields are not filled and user clicks on Save button then error message will appear . 
-      ![image](https://github.com/Satyam3106/Result_Management_System/assets/148087403/f09c6fde-5855-4006-82a0-cb6028971366)
+1. Add a new Student 
+  If all the fields are not filled and user clicks on Save button then error message will appear . 
+  ![image](https://github.com/Satyam3106/Result_Management_System/assets/148087403/f09c6fde-5855-4006-82a0-cb6028971366)
 
 
-      If the user enters the duplicate roll no then also the error message will appear . 
-      ![image](https://github.com/Satyam3106/Result_Management_System/assets/148087403/2c5be87a-0837-482e-b969-4ebcb447f878)
+  If the user enters the duplicate roll no then also the error message will appear . 
+  ![image](https://github.com/Satyam3106/Result_Management_System/assets/148087403/2c5be87a-0837-482e-b969-4ebcb447f878)
 
-      If the user enters distinct roll no and fill all the fields then 'successfully saved ' message will appear . 
-      ![image](https://github.com/Satyam3106/Result_Management_System/assets/148087403/975b02d5-dea9-4d9b-a661-2102b341b867)
+  If the user enters distinct roll no and fill all the fields then 'successfully saved ' message will appear . 
+  ![image](https://github.com/Satyam3106/Result_Management_System/assets/148087403/975b02d5-dea9-4d9b-a661-2102b341b867)
 
 
 
