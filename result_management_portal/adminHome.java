@@ -271,16 +271,22 @@ public class adminHome extends javax.swing.JFrame {
         String name = jTextField2.getText();
         String gender = (String)jComboBox3.getSelectedItem();
         String fatherName = jTextField4.getText();
-        try
+       try
         {
             Class.forName("com.mysql.cj.jdbc.Driver");
             Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/srms","root","Conor@Cole2023");
             Statement st = con.createStatement();
+            if(jTextField1.getText().isEmpty() || jTextField2.getText().isEmpty() || jTextField4.getText().isEmpty())
+            {
+                JOptionPane.showMessageDialog(null,"Please insert all values");
+            }
+            else
+            {
             st.executeUpdate("insert into student(rollno,course,branchName,name,gender,fatherName) values ('"+roll+"','"+course+"','"+branchName+"','"+name+"','"+gender+"','"+fatherName+"')");
             JOptionPane.showMessageDialog(null,"Data saved successfully");
             setVisible(false);
             new addResult().setVisible(true);
-        }
+        }}
         catch(Exception e)
                 {
                     
